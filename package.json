@@ -1,6 +1,10 @@
 {
   "dependencies": {
     "commander": "^8.3.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "jest": "^27.3.1",
     "lodash": "^4.17.21"
   },
   "name": "@hexlet/code",
@@ -12,7 +16,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/Kaibl/frontend-project-lvl2/issues"
   },
-  "homepage": "https://github.com/Kaibl/frontend-project-lvl2#readme"
+  "homepage": "https://github.com/Kaibl/frontend-project-lvl2#readme",
+  "devDependencies": {
+    "eslint-plugin-jest": "^25.3.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  }
 }

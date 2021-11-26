@@ -1,7 +1,6 @@
 import { readFileSync } from 'fs';
 import path from 'path';
 
-
 const readJSON = (file) => {
   const readFile = readFileSync(path.resolve(file), 'utf-8');
   const parseFile = JSON.parse(readFile);
@@ -32,5 +31,5 @@ const genDiff = (firstObj, secondObj) => {
   const toString = JSON.stringify(result, null, '   ');
   return toString.replace(/["']/g, '');
 };
-export default genDiff;
 
+export default genDiff;
