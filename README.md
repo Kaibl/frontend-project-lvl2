@@ -4,4 +4,4 @@
 [![Eslint-check](https://github.com/Kaibl/frontend-project-lvl2/actions/workflows/eslint.yml/badge.svg)](https://github.com/Kaibl/frontend-project-lvl2/actions/workflows/eslint.yml)
 [![test](https://github.com/Kaibl/frontend-project-lvl2/actions/workflows/test.yml/badge.svg)](https://github.com/Kaibl/frontend-project-lvl2/actions/workflows/test.yml)
 #genediff
-<script id="asciicast-92C3hTXN6Wo3Nd1P3D7lfep71" src="https://asciinema.org/a/92C3hTXN6Wo3Nd1P3D7lfep71.js" async></script>
+[![asciicast](https://asciinema.org/a/92C3hTXN6Wo3Nd1P3D7lfep71.svg)](https://asciinema.org/a/92C3hTXN6Wo3Nd1P3D7lfep71)
