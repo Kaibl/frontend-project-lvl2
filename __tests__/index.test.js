@@ -24,3 +24,11 @@ test('YML', () => {
 
   expect(genDiff(file1Y, file2Y)).toBe(result);
 });
+
+test('stylish', () => {
+  const file1X = getFixturePath('file21.json');
+  const file2X = getFixturePath('file22.json');
+  const result = readFile('result2.txt');
+
+  expect(genDiff(file1X, file2X)).toBe(result);
+});

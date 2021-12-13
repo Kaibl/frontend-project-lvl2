@@ -6,3 +6,6 @@
 
 ## genediff
 [![asciicast](https://asciinema.org/a/92C3hTXN6Wo3Nd1P3D7lfep71.svg)](https://asciinema.org/a/92C3hTXN6Wo3Nd1P3D7lfep71)
+
+## stylish
+[![asciicast](https://asciinema.org/a/D9rKrrBlAH9rdc6fHyWRf7djP.svg)](https://asciinema.org/a/D9rKrrBlAH9rdc6fHyWRf7djP)
