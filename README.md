@@ -9,3 +9,6 @@
 
 ## stylish
 [![asciicast](https://asciinema.org/a/D9rKrrBlAH9rdc6fHyWRf7djP.svg)](https://asciinema.org/a/D9rKrrBlAH9rdc6fHyWRf7djP)
+
+## plain
+[![asciicast](https://asciinema.org/a/QPOvQVL1vqta5RXkyfwjL2hkr.svg)](https://asciinema.org/a/QPOvQVL1vqta5RXkyfwjL2hkr)

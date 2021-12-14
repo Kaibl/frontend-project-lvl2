@@ -1,4 +1,4 @@
-const space = (depth = 1, count = 4) => ' '.repeat(count * depth - 2);
+const space = (depth, count = 4) => ' '.repeat(count * depth - 2);
 
 const stringify = (data, depth) => {
   if (typeof data !== 'object') {
@@ -25,7 +25,6 @@ const stylish = (tree) => {
       same: getValue(val.val, ' '),
     };
     if (val.type === 'recursion') {
-      console.log(val);
       return `${space(depth)}  ${val.key}: {\n${mutTree(val.children, depth + 1).join('')}${space(depth)}  }\n`;
     }
     return mas[val.type];

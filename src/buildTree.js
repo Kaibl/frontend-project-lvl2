@@ -6,7 +6,6 @@ const buildTree = (data1, data2) => {
   return sortedKeys.map((key) => {
     const value1 = data1[key];
     const value2 = data2[key];
-
     if (!_.has(data1, key)) {
       return { type: 'plus', key, val: value2 };
     }
