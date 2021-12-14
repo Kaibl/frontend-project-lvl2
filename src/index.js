@@ -15,7 +15,6 @@ const genDiff = (fileOne, fileTwo, format) => {
   const data1 = parse(fileOneFormat, fileOneContent);
   const data2 = parse(fileTwoFormat, fileTwoContent);
   const answ = buildTree(data1, data2);
-  console.log(answ);
   return formater(answ, format);
 };
 

@@ -7,8 +7,11 @@
 ## genediff
 [![asciicast](https://asciinema.org/a/92C3hTXN6Wo3Nd1P3D7lfep71.svg)](https://asciinema.org/a/92C3hTXN6Wo3Nd1P3D7lfep71)
 
-## stylish
+## -f stylish
 [![asciicast](https://asciinema.org/a/D9rKrrBlAH9rdc6fHyWRf7djP.svg)](https://asciinema.org/a/D9rKrrBlAH9rdc6fHyWRf7djP)
 
-## plain
+## -f plain
 [![asciicast](https://asciinema.org/a/QPOvQVL1vqta5RXkyfwjL2hkr.svg)](https://asciinema.org/a/QPOvQVL1vqta5RXkyfwjL2hkr)
+
+## -f json
+[![asciicast](https://asciinema.org/a/uNlPkGdMXv23G6oYUzfS0H5jk.svg)](https://asciinema.org/a/uNlPkGdMXv23G6oYUzfS0H5jk)

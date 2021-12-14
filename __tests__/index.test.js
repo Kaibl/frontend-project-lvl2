@@ -10,7 +10,7 @@ const getFixturePath = (filename) => path.join(__dirname, '..', '__fixtures__', 
 const readFile = (filename) => fs.readFileSync(getFixturePath(filename), 'utf-8');
 
 const cases = [
-  ['file1.json', 'file2.json', 'result.txt', 'stylish'],
+  ['file21.json', 'file22.json', 'resultJSON.txt', 'json'],
   ['file1.yml', 'file2.yml', 'result.txt', 'stylish'],
   ['file21.json', 'file22.json', 'result2.txt', 'stylish'],
   ['file21.json', 'file22.json', 'result3.txt', 'plain'],
