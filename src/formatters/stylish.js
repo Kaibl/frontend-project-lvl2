@@ -17,17 +17,22 @@ const stringify = (data, depth) => {
 
 const stylish = (tree) => {
   const mutTree = (data, depth) => data.map((val) => {
-    const getValue = (value, sign) => `${makeSpace(depth)}${sign} ${val.key}: ${stringify(value, depth)}\n`;
-    const mas = {
-      plus: getValue(val.val, '+'),
-      minus: getValue(val.val, '-'),
-      both: `${getValue(val.val1, '-')}${getValue(val.val2, '+')}`,
-      same: getValue(val.val, ' '),
-    };
-    if (val.type === 'recursion') {
-      return `${makeSpace(depth)}  ${val.key}: {\n${mutTree(val.children, depth + 1).join('')}${makeSpace(depth)}  }\n`;
+    const makeString = (value, sign) => `${makeSpace(depth)}${sign} ${val.key}: ${stringify(value, depth)}\n`;
+
+    switch (val.type) {
+      case 'plus':
+        return makeString(val.val, '+');
+      case 'minus':
+        return makeString(val.val, '-');
+      case 'both':
+        return `${makeString(val.val1, '-')}${makeString(val.val2, '+')}`;
+      case 'same':
+        return makeString(val.val, ' ');
+      case 'recursion':
+        return `${makeSpace(depth)}  ${val.key}: {\n${mutTree(val.children, depth + 1).join('')}${makeSpace(depth)}  }\n`;
+      default:
+        throw new Error(`type not supported: ${val.type}`);
     }
-    return mas[val.type];
   });
   return `{\n${mutTree(tree, 1).join('')}}`;
 };

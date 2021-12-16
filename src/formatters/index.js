@@ -10,7 +10,7 @@ const formater = (data, format) => {
     case 'json':
       return JSON.stringify(data);
     default:
-      throw new Error(`Формат не поддерживается: ${format}`);
+      throw new Error(`format not supported: ${format}`);
   }
 };
 
