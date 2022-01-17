@@ -10,7 +10,7 @@ Compares two configuration files and shows a difference.
 ## Installation
 sudo npm install -g frontend-gendiff-lvl2
 
-##Usage
+## Usage
 gendiff [options] <pathToFile1> <pathToFile2>
 
 Options:
