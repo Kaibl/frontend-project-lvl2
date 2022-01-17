@@ -14,9 +14,9 @@ sudo npm install -g frontend-gendiff-lvl2
 gendiff [options] <pathToFile1> <pathToFile2>
 
 Options:
--V, --version output the version number
--f, --format [type] Output format
--h, --help output usage information
+- -V, --version output the version number
+- -f, --format [type] Output format
+- -h, --help output usage information
 
 [type] - plain, json, nested
 <pathToFile> - path to json, yaml or ini configuration file
